@@ -32,9 +32,9 @@
                     <h3>Developer|Engineer|Problem Solver</h3>
                     <h3>Master of shadows and the Internet!</h3>
                 </div>
-                <img class="gear" src="./icons/gear.png">
-                <a class="edit" href="https://github.com/kquac00" target="_blank">edit profile
-                </a>
+                <img class="gear" src="./icons/gear.png" alt="gearicon">
+                <p class="editProfile" onclick="changeProfileName(this)">edit profile</p>
+                
                 <div class="educationcard">
                     <div class="educationcard2">Education
                     </div>
@@ -51,39 +51,48 @@
                     <button class="count">2
                     </button>Connection Requests
                 </div>
-                <div>
+                <div id="connectionRequestOne">
                     <img class="pic1" src="./images/alayne-s.jpg">Elayne S
                     <img class="pic2" src="./icons/accept-circle.png">
-                    <img class="pic2" src="./icons/close-circle.png">
+                    <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                 </div>
                 <div class="line2">
                     <img class="pic1" src="./images/anne-s.jpg">Anne S
                     <img class="pic2" src="./icons/accept-circle.png">
-                    <img class="pic2" src="./icons/close-circle.png">
+                    <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                 </div>
             </div>
             <div class="yourconnection">
                 <div class="yourconnection2">
-                    <button class="count">500+
-                    </button>Your Connections
+                    <button class="count1">500
+                    </button>
+                    Your Connections
                 </div>
                     <div>
                         <img class="picfontsz" src="./images/arry-s.jpg">Arry S
+                        <img class="pic2" onclick="addToYourConnections(this)" src="./icons/accept-circle.png">
+                        <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                     </div>
                     <div>
                         <img class="picfontsz" src="./images/jane-m.jpg">Jane m
+                        <img class="pic2" onclick="addToYourConnections(this)" src="./icons/accept-circle.png">
+                        <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                     </div>
                     <div>
                         <img class="picfontsz" src="./images/phil-s.jpg">Phil S
+                        <img class="pic2" onclick="addToYourConnections(this)" src="./icons/accept-circle.png">
+                    <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                     </div>
                     <div>
                         <img class="picfontsz" src="./images/todd-s.jpg">Todd S
+                        <img class="pic2" onclick="addToYourConnections(this)" src="./icons/accept-circle.png">
+                    <img class="pic3" onclick="removePicture(this)" src="./icons/close-circle.png">
                     </div>
                 <div class="viewmore">
                     <a class="viewfont" href="https://login.codingdojo.com/m/201/7504/53213">View More</a>
                 </div>
             </div>
         </div>
+    <script src="/script.js"></script>
 </body>
-
 </html>
